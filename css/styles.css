@@ -7,19 +7,22 @@ body{
     padding: 0;
     margin: 0;
     background-color: #243462;
+    user-select: none;
 }
 
 h1{
     color:white;
-    font-size: 6.25em;
+    font-size: 5vw;
     font-family: 'Courier New', Courier, monospace;
 }
 
 button{
-    width: 12.5em;
     height: 6.25em;
     color:black;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 3vw;
+    text-transform: uppercase;
     text-decoration: brown;
     background-color: #e2c389;
     border-radius: 1.9375em;
